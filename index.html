@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html>
+<title>Fit For Life</title>
+ <link rel="icon" href="Project201/logo.png">
+
+<link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Tangerine">
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+
+
+<style>
+h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
+.w3-bar-block .w3-bar-item {padding:16px}
+body::selection
+{   color:red;
+    background-color:#BB4113;
+    
+}
+table{
+margin-left:33%; margin-top:-15px;
+}
+
+.example_e {
+border: none;
+background: #404040;
+color: #ffffff !important;
+font-weight: 100;
+padding: 30px;
+text-transform: uppercase;
+border-radius: 6px;
+display: inline-block;
+transition: all 0.3s ease 0s;
+}
+
+.example_e:hover {
+color: #404040 !important;
+font-weight: 700 !important;
+letter-spacing: 3px;
+background: none;
+-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+transition: all 0.3s ease 0s;
+}
+
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+
+
+
+</style></head>
+<body>
+
+<!-- Sidebar (hidden by default) -->
+<nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left" style="display:none;z-index:2;width:10%;min-width:200px" id="mySidebar" >
+  <a href="javascript:void(0)" onclick="w3_close()"
+  class="w3-bar-item w3-button">☰ Close</a><br>
+  <a href="indexdark.html" onclick="w3_close()" class="w3-bar-item w3-button">Dark Mode</a>
+
+ <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button"></a>
+</nav>
+
+
+<!-- Top menu -->
+<div class="w3-top"> 
+  <div class="w3-white w3-xlarge" style="max-width:1200px;margin:auto">
+    <div class="w3-button w3-padding-16 w3-left" onclick="w3_open()">☰</div>
+    <div class="w3-right w3-padding-16"><a href="contact.html" style="text-decoration:none;">
+&#128231;  Mail</a></div>
+    <div class="w3-center w3-padding-10">
+  <img src="images/Hlogo.png" style="width:130px;">
+  
+  <!--height:70px;-->
+  <h1 style="text-shadow:2px 2px blue;">Fit For Life</h1></div> 
+  </div>
+</div>
+  
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:150px">
+
+  <!-- First Photo Grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center" id="food">
+    <div class="w3-quarter">
+      <a href="Project201/firstaid.html"style="text-decoration:none;"> <img src="Project201/FirstAid.png" alt="FirstAid" style="width:230px" height="180px">
+     <h3><b>ရှေးဦးသူနာပြုစုနည်းများ</b></h3></a>
+      <p>အရေးပေါ် အ‌ခြေနေသည် အချိန်မရွေး ဖြစ်ပေါ်နိုင်သည်။</p>
+    </div>&nbsp;&nbsp;
+    <div class="w3-quarter">
+     <a href="Kalay/kalayHome.html" style="text-decoration:none;"><img src="images/3.png.png" alt="Kids" style="width:230px" height="180px">
+      <h3><b>ကလေးကျန်းမာရေး</b></h3></a>
+      <p>တိုင်းပြည်၏အနာဂတ်သည် ကလေးများပေါ်တွင်မူတည်သည်။</p>
+    </div>&nbsp;&nbsp;
+    <div class="w3-quarter">
+       <a href="Kyant/KyantHome.html" style="text-decoration:none;"><img src="images/Fitness-Tips.png" alt="Fitness" style="width:230px" height="180px">
+     <h3><b>ကြံ့ခိုင်ကျန်းမာရေး</b></h3></a>
+      <p>သင်၏တစ်နေ့တာကို ကျန်းမာစွာဖြတ်သန်းပါ။</p>
+      <p></p>
+    </div>
+    <div class="w3-quarter" style="margin-top:-20px;">
+      <a href="Sate/SateHome.html"  style="text-decoration:none;"><img src="images/mc.jpg" alt="Mind" style="width:230px" height="180px">
+     <a href="Sate/SateHome.html"  style="text-decoration:none;"> <h3><b>စိတ်ကျန်းမာရေး</b></h3></a>
+      <p>စိတ်ကျန်းမာရေးသည် လူတစ်ယောက်၏ဘဝအတွက် အရေးကြီးသည်။</p>
+    </div>
+  </div>
+
+  <!-- Second Photo Grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center">
+    <div class="w3-quarter">
+      <img src="images/new.jpeg" alt="Mental" style="width:230px" height="180px">
+<a href="news/news.html" style="text-decoration:none;">
+      <h3><b>ကျန်းမာရေးသတင်း</b></h3></a>
+      <p>နားစွင့်ထားပါ ကျန်းမာရေးသတင်းအဖြာဖြာ</p>
+    </div>
+    <div class="w3-quarter">
+        <a href="teeth/toothHome.html" style="text-decoration:none;">
+      <img src="images/teeth.jpeg" alt="Salmon" style="width:230px" height="180px">
+      <h3><b>သွားနှင့်ခံတွင်းကျန်းမာရေး
+</b></h3></a>
+      <p>သွားနှင့်ခံတွင်းကျန်းမာဖို့ ဆေးလိပ်သောက်ခြင်းရှောင်ကြဥ်စို့</p>
+    </div>
+    <div class="w3-quarter">
+          <a href="habits/habitHome.html" style="text-decoration:none;">
+      <img src="images/kyanmar.jpg" alt="Sandwich" style="width:230px" height="180px">
+      <h3><b>ကျန်းမာသောနေထိုင်မှု
+ပုံစံ</a>
+</b></h3>
+      <p>သက်ရှည်ကျန်းမာ စိတ်ချမ်းသာ</p>
+    </div>
+    <div class="w3-quarter">
+        <a href="Ah htwe htwe/ah htwe htwe home.html" style="text-decoration:none;">
+      <img src="images/hl.jpeg" alt="Mental" style="width:230px" height="180px">
+      <h3><b>အထွေထွေရောဂါများ
+</b></h3></a>
+      <p>ရောဂါပေါင်းစုံကာကွယ်ဖို့ ဤဆောင်းပါးကိုလေ့လာစို့
+</p>  </a>
+    </div>
+  </div>
+  
+  <!-- Pagination -->
+  <div class="w3-center w3-padding-32">
+    <div class="w3-bar">
+     
+      <a href="#" class="w3-bar-item w3-black w3-button">1</a>
+      <a href="index2.html" class="w3-bar-item w3-button w3-hover-black">2</a>
+      <a href="index3.html" class="w3-bar-item w3-button w3-hover-black">3</a>
+      <a href="index3.html" class="w3-bar-item w3-button w3-hover-black">4</a>
+      <a href="index2.html" class="w3-bar-item w3-button w3-hover-black">»</a>
+   
+ </div>
+  </div>
+  
+  <div class="button_cont" align="center"><a class="example_e" href="Calculators/calculator.html" target="_blank" rel="nofollow noopener" style="text-decoration:none;"><h4>Check Your Calories</h4></a></div>
+  <hr id="about">
+
+  <!-- About Section -->
+  
+  <!-- Footer -->
+  <footer class="w3-row-padding w3-padding-32">
+    <div class="w3-third">
+      <h3>Member List</h3>
+      <p>Zaw Zaw Win<br>Kaung Khant Zaw<br>Nyein Su San<br>Mai Hayyamone Htoo<br>Toe Yu Khaing
+      <p>Powered by <a href="http://www.ucsloikaw.edu.mm" target="_blank">UCSL(Second Year)</a></p>
+    </div>
+  
+    <div class="w3-third">
+      <h3>BLOG POSTS</h3>
+      <ul class="w3-ul w3-hoverable">
+        <li class="w3-padding-16">
+          <img src="images/imgn14.jpg" class="w3-left w3-margin-right" style="width:80px">
+          <a href="Kalay/kalay10.html" style="text-decoration:none;"><span class="w3-large"><small>နို့တိုက်မိခင်တွေ ပျားရည် ရှောင်ဖို့ လိုပါသလား</small></span><br>
+          <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(ကလေးကျန်းမာရေး)</span>
+        </li></a>
+        <li class="w3-padding-16">
+          <img src="images/img2.jpg" class="w3-left w3-margin-right" style="width:80px">
+           <a href="Sate/Sate2.html" style="text-decoration:none;"><span class="w3-large"><small>အထီးကျန်တာ အမြန်ဆုံး ဖြေဖျောက်ဖို့ ဘာတွေ လုပ်သင့်လဲ</small></span><br>
+          <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(စိတ်ကျန်းမာရေး)</span>
+        </li> 
+      </ul>
+    </div></a>
+
+    <div class="w3-third w3-serif">
+      <h3>Sources</h3>
+      <p>
+        <span class="w3-tag w3-black w3-margin-bottom">Dr.Barry</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Dr.ချစ်စန္ဒီကျော်</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Dr.အိမ့်ချယ်ရီ</span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Dr.သုတ</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom"></span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Dr.ကောင်းစံလင်း</span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Dr.အောင်ကျော်​မြင့်</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Dr.ထက်ထက်ဇော်ဝင်း</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Dr.MTA</span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Dr. အောင်ပြည့်ဖြိုးဦး</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Dr.အောင်ဇင်ကို</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Wedmd.com</span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Healthline.com</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Mayoclinic.com</span>
+      </p>
+    </div>
+  </footer>
+
+<!-- End page content -->
+</div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+<script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="88e448dd-6feb-416b-a859-a496cf4a7df2";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script>
+<script type="text/javascript" src="https://www.freevisitorcounters.com/en/home/counter/659415/t/1"></script>
+</body>
+</html>
